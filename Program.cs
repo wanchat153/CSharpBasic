@@ -10,6 +10,11 @@ namespace CSharpBasic
     {
         static void Main(string[] args)
         {
+            //Output
+            Console.WriteLine("Hello World");
+
+            //Input
+            Console.ReadLine();
         }
     }
 }
