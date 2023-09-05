@@ -13,7 +13,12 @@ namespace CSharpBasic
             //Output
             Console.WriteLine("Hello World");
 
-            //Input
+            //Input Name and Print Name
+            Console.WriteLine("Enter Name :");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hi " + name);
+
+            //Input end
             Console.ReadLine();
         }
     }
