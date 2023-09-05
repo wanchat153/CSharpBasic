@@ -16,7 +16,11 @@ namespace CSharpBasic
             //Input Name and Print Name
             Console.WriteLine("Enter Name :");
             string name = Console.ReadLine();
-            Console.WriteLine("Hi " + name);
+
+            //Convert data
+            Console.WriteLine("Enter Age :");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Hi " + name+ " Age " + age);
 
             //Input end
             Console.ReadLine();
